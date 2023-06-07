@@ -1,51 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-</head>
-
-  <body>
-    <ul>
-      <li>
-        <a href="index.html"> Nome </a>
-      </li>
-      <li>
-        <a href="contato.html"> Contato </a>
-      </li>
-    </ul>
-
-    <h1>Sobre o Rafael Marques</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis
-      ipsum blanditiis, totam error, recusandae, eos consequuntur laboriosam
-      amet mollitia nobis consectetur laborum itaque quos adipisci facere saepe
-      est voluptatibus tempora.
-    </p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio nulla
-      minima voluptatum nobis. Nulla excepturi iste quod labore impedit
-      laboriosam? Laboriosam architecto soluta libero aperiam reprehenderit,
-      dolor reiciendis nesciunt iure?
-    </p>
-
-    <img
-      src="assets/images/avatar pikachu meme.jpg"
-      alt="Avatar do Criador do Conteúdo"
-    />
-
-    <h2>Musica Favorita:</h2>
-
-    <iframe
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/K4DyBUG242c" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-  </iframe>
-  </body>
-</html>
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  <head> 
+    <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Rafael Marques - Portfólio</title> 
+    <link rel="stylesheet" href="assets/css/styleindex.css"> 
+  </head> 
+  <body> <!-- Cabeçalho com imagem de fundo e texto centralizado --> 
+    <header class="header"> 
+      <div class="header__container">
+        <h1 class="header__title">Rafael Marques</h1> 
+        <nav class="header__nav"> 
+          <ul> 
+            <li>
+              <a href="index.html">Home</a>
+            </li> 
+            <li>
+              <a href="contato.html">Contato</a>
+            </li> 
+          </ul>
+        </nav>
+       </div>
+       </header>
+  <!-- Conteúdo principal da página -->
+  <main class="main">
+    <section class="about">
+      <div class="about__container">
+        <h2 class="about__title">Sobre mim:</h2>
+        <p class="about__text">A vida é uma jornada repleta de altos e baixos, mas é nas adversidades que encontramos a força para seguir em frente e nos tornarmos pessoas melhores. Acredito que cada desafio é uma oportunidade de aprendizado e crescimento, e que devemos encará-los de frente, com determinação e coragem. Ao mesmo tempo, valorizo a empatia e a compaixão, pois entendo que cada um de nós enfrenta batalhas invisíveis e precisamos nos apoiar mutuamente. Com isso, busco sempre me manter curioso e aberto às possibilidades que a vida oferece, pois acredito que a curiosidade é a chave para a descoberta de novos horizontes e para a realização de nossos sonhos mais ambiciosos.</p>
+      </div>
+    </section>
+  
+    <section class="music">
+      <div class="music__container">
+        <h2 class="music__title">Música favorita:</h2>
+        <div class="music__embed">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
