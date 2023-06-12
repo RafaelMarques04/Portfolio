@@ -1,42 +1,60 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-  <head> 
-    <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Rafael Marques - Portfólio</title> 
-    <link rel="stylesheet" href="assets/css/styleindex.css"> 
-  </head> 
-  <body> <!-- Cabeçalho com imagem de fundo e texto centralizado --> 
-    <header class="header"> 
-      <div class="header__container">
-        <h1 class="header__title">Rafael Marques</h1> 
-        <nav class="header__nav"> 
-          <ul> 
-            <li>
-              <a href="index.html">Home</a>
-            </li> 
-            <li>
-              <a href="contato.html">Contato</a>
-            </li> 
-          </ul>
-        </nav>
-       </div>
-       </header>
-  <!-- Conteúdo principal da página -->
-  <main class="main">
-    <section class="about">
-      <div class="about__container">
-        <h2 class="about__title">Sobre mim:</h2>
-        <p class="about__text">A vida é uma jornada repleta de altos e baixos, mas é nas adversidades que encontramos a força para seguir em frente e nos tornarmos pessoas melhores. Acredito que cada desafio é uma oportunidade de aprendizado e crescimento, e que devemos encará-los de frente, com determinação e coragem. Ao mesmo tempo, valorizo a empatia e a compaixão, pois entendo que cada um de nós enfrenta batalhas invisíveis e precisamos nos apoiar mutuamente. Com isso, busco sempre me manter curioso e aberto às possibilidades que a vida oferece, pois acredito que a curiosidade é a chave para a descoberta de novos horizontes e para a realização de nossos sonhos mais ambiciosos.</p>
-      </div>
-    </section>
-  
-    <section class="music">
-      <div class="music__container">
-        <h2 class="music__title">Música favorita:</h2>
-        <div class="music__embed">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="assets/images/avatar pikachu meme.jpg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img class="icone" src="assets/images/avatar pikachu meme.jpg" alt="Logo da pagina - imamgem pikachu meme">
+            <span class="titulo">Rafael Marques</span>
         </div>
-      </div>
-    </section>
-  </main>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#meu_video">Vídeo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Sobre o Rafael:</h1>
+        <section id="sobre">
+            <div class="texto_sobre">
+                <p>A vida é uma jornada repleta de altos e baixos, mas é nas adversidades que encontramos a força para seguir em frente e nos tornarmos pessoas melhores. Acredito que cada desafio é uma oportunidade de aprendizado e crescimento, e que devemos encará-los de frente, com determinação e coragem. Ao mesmo tempo, valorizo a empatia e a compaixão, pois entendo que cada um de nós enfrenta batalhas invisíveis e precisamos nos apoiar mutuamente. Com isso, busco sempre me manter curioso e aberto às possibilidades que a vida oferece, pois acredito que a curiosidade é a chave para a descoberta de novos horizontes e para a realização de nossos sonhos mais ambiciosos.
+                </p>
+            </div>
+            <img class="foto" src="assets/images/R.jpeg" alt="quico com a cara da chiquinha">
+        </section>
+        <h1 id="meu_video">Vídeo </h1>
+        <section id="video">
+            <h3>Música Favorita:</h3>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>   
+    </main>
+    <footer>
+        <div class="redes_sociais">
+            <a href="https://www.linkedin.com/in/rafael-marques019/" target="_blank">
+                <img class="icons" src="assets/images/logo-linkedin-icon-4096.png" alt="Linkedin">
+            </a>
+            <a href="https://github.com/RafaelMarques04" target="_blank">
+                <img class="icons" src="assets/images/github.jpg" alt="Github">
+            </a>
+            <a href="https://www.instagram.com/dys_rrafaa/" target="_blank">
+                <img class="icons" src="assets/images/instagram.jpg" alt="instagram">
+            </a>
+        </div>
+        <p class="by">Desenvolvido por Rafael - Todos os direitos reservados. 2023 &copy;</p>
+    </footer>
+ 
+
+</body>
+
+</html>
